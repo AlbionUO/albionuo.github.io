@@ -22,11 +22,15 @@ We will need the following:
 $ git clone https://github.com/AlbionUO/albionuo.github.io.git
 ```
 4. Change directories to the `albionuo.github.io` folder
-5. Install dependencies
+5. Install Dependencies
+```bash
+$ bundle install
+```
+6. Serve local site
 ```bash
 $ bundle exec jekyll server
 ```
-6. Browse to [http://localhost:4000/](http://localhost:4000/)
+7. Browse to [http://localhost:4000/](http://localhost:4000/)
 
 ## Supported with Markdown
 
